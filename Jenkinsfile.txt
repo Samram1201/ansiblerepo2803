@@ -2,8 +2,8 @@ pipeline {
     agent any
     stages {
         stage('Get_Playbook') {
-            steps {
-                git 'https://github.com/vishnukiranreddy4/ansiblerepo.git'
+            steps {                
+                git 'https://github.com/Samram1201/ansiblerepo2803.git'
             }
         }
         stage('Run_Playbook') {
